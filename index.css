@@ -7,9 +7,14 @@
 /* базовые стили body */
 body {
     font-family: "Raleway", Tahoma, Geneva, Verdana, sans-serif;
-    height: 100hv;
     overflow: hidden;
+    min-height: 100vh;
+    background-image: url("./images/city.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 /* Сброс стилей для форм */
 input, 
@@ -38,4 +43,12 @@ button {
 
 .logo {
     width: 150px;
+}
+
+.wrapper {
+    background-color: #fff;
+    width: 205px;
+    height: 270px;
+    padding: 10px 20px 25px 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
