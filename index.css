@@ -35,3 +35,7 @@ button {
     background-position: center;
     z-index: -1;
 }
+
+.logo {
+    width: 150px;
+}
